@@ -10,6 +10,14 @@ The data gets pushed to AWS CloudWatch for visualisation and safekeeping
 
 ![Screenshot](CloudWatch.jpg)
 
+# API Usage
+This program makes use of the following APIs:
+
+  - [Cryptowatch](https://cryptowat.ch/) for cryptocurrency prices at major exchanges
+  - [CoinMarketCap](https://cryptowat.ch/) for crypto total market cap
+  - [Open Exchange Rates](https://openexchangerates.org/) for FX data
+  - [CloudWatch](https://aws.amazon.com/cloudwatch/) API for pushing datapoints to AWS
+
 # Dependencies
 ```sh
 dotnet add package Newtonsoft.Json --version 10.0.3
